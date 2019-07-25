@@ -8,4 +8,4 @@ RUN docker-php-ext-configure gd \
 		--with-freetype-dir=/usr \
 		--with-png-dir=/usr \
 		--with-jpeg-dir=/usr \
-	&& docker-php-ext-install gd
+	&& docker-php-ext-install gd bcmath
